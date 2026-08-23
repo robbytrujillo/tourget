@@ -537,4 +537,8 @@
 .about-box .box:nth-child(1) p {
   line-height: 2;
 }
+
+.about-box .box:nth-child(2) img {
+  border-radius: 20px;
+}
 /* About Us End */
