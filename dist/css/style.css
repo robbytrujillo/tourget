@@ -545,7 +545,8 @@
   gap: 30px;
 }
 
-.about-box .box:nth-child(2) img {
+.about-box .box:nth-child(2) div img {
+  width: 100%;
   border-radius: 20px;
 }
 /* About Us End */
