@@ -533,4 +533,8 @@
   font-size: 40px;
   margin-bottom: 10px;
 }
+
+.about-box .box:nth-child(1) p {
+  line-height: 2;
+}
 /* About Us End */
