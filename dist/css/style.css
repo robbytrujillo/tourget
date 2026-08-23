@@ -538,6 +538,13 @@
   line-height: 2;
 }
 
+.about-box .box:nth-child(2) {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
 .about-box .box:nth-child(2) img {
   border-radius: 20px;
 }
