@@ -549,4 +549,13 @@
   width: 100%;
   border-radius: 20px;
 }
+
+.about-box .box:nth-child(2) div h2 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.about-box .box:nth-child(2) div p {
+  line-height: 2;
+}
 /* About Us End */
