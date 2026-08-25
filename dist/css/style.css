@@ -575,3 +575,21 @@
   }
 } 
 /* About Us End */
+
+/* Footer Start */
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--color-black-footer);
+}
+
+.footer-box {
+  text-align: center;
+}
+
+.footer-box p {
+  color: var(--color-white-8);
+  line-height: 2;
+}
+/* Footer End */
