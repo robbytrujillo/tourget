@@ -592,4 +592,9 @@
   color: var(--color-white-8);
   line-height: 2;
 }
+
+.footer-box p span {
+  color: var(--color-white-10);
+  font-weight: bold;
+}
 /* Footer End */
