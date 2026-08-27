@@ -598,3 +598,26 @@
   font-weight: bold;
 }
 /* Footer End */
+
+/* Pre Loader Start */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #f1f2f3;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.loader img {
+  height: 50px;
+  width: 50px;
+}
+
+.loader.loader-active {
+  display: none;
+}
+/* Pre Loader End */
