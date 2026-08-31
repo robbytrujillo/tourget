@@ -6,6 +6,11 @@ hamburger.addEventListener("click", () => {
   menu.classList.toggle("menu-active");
 });
 
+hamburger.addEventListener("scroll", () => {
+  hamburger.classList.remove("is-active");
+  menu.classList.remove("menu-active");
+});
+
 const loader = document.querySelector(".loader");
 
 function loaderActive() {
