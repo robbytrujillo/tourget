@@ -170,7 +170,11 @@
 
 .hero .hero-jargon div:nth-child(1) {
   border-right: 1px solid var(--color-white-2);
-  --animate-delay:3.4s;
+  --animate-delay: 3.4s;
+}
+
+.hero .hero-jargon div:nth-child(2) {
+  --animate-delay: 3.8s;
 }
 
 .hero .hero-jargon div p {
