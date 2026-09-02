@@ -15,10 +15,12 @@ hamburger.addEventListener("scroll", () => {
 
 const loader = document.querySelector(".loader");
 
+// mengaktifkan loader
 function loaderActive() {
   loader.classList.add("loader-active");
 }
 
+// estimasi waktu loader
 function loaderActiveTime() {
   setInterval(loaderActive, 3000);
 }
