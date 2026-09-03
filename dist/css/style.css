@@ -238,9 +238,15 @@
     font-size: 24px;
   }
 
+   .navbar a.about-button {
+    text-decoration: none;
+  }
+
   .navbar .about-button {
     display: none;
   }
+
+ 
 
   .hamburger {
     display: block;
